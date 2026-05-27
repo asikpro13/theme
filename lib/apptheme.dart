@@ -34,4 +34,4 @@ extension TextStyleExtension on TextTheme {
   }
 }
 
-var bodyMedium = TextStyle(fontFamily: 'Manrope', fontWeight: FontWeight.w400, fontSize: 160.fh, height: 24.fh / 16.fh, letterSpacing: 0.fw, color: AppColors.black);
+var bodyMedium = TextStyle(fontFamily: 'Manrope', fontWeight: FontWeight.w400, fontSize: 16.fh, height: 24.fh / 16.fh, letterSpacing: 0.fw, color: AppColors.black);
