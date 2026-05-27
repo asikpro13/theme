@@ -18,7 +18,7 @@ extension TextStyleExtension on TextTheme {
 
   // Текстовый стиль bodyMedium с макета
   TextStyle get bodyMedium {
-    return TextStyle(fontFamily: 'Manrope', fontWeight: FontWeight.w400, fontSize: 16.fh, height: 24.fh / 16.fh, letterSpacing: 0.fw, color: AppColors.black);
+    return TextStyle(fontFamily: 'Manrope', fontWeight: FontWeight.w400, fontSize: 160.fh, height: 24.fh / 16.fh, letterSpacing: 0.fw, color: AppColors.black);
   }
 
   // Текстовый стиль bodySmall с макета
