@@ -33,6 +33,6 @@ extension TextStyleExtension on TextTheme {
 
   // Тестовый текстовый стиль
   TextStyle get testStyle {
-    return TextStyle(fontFamily: 'Playwrite', fontWeight: FontWeight.w400, fontSize: 14.fh, height: 20.fh / 14.fh, letterSpacing: 0.fw, color: AppColors.black);
+    return TextStyle(fontFamily: 'Playwrite', fontWeight: FontWeight.w400, fontSize: 24.fh, height: 32.fh / 24.fh, letterSpacing: 0.fw, color: AppColors.black);
   }
 }
