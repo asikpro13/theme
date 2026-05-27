@@ -33,5 +33,8 @@ extension TextStyleExtension on TextTheme {
   }
 }
 
+class Typography {
+
+}
 // Текстовый стиль bodyMedium с макета
 var bodyMedium = TextStyle(fontFamily: 'Manrope', fontWeight: FontWeight.w400, fontSize: 16.fh, height: 24.fh / 16.fh, letterSpacing: 0.fw, color: AppColors.black);
