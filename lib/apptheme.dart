@@ -16,7 +16,6 @@ extension TextStyleExtension on TextTheme {
     return TextStyle(fontFamily: 'Manrope', fontWeight: FontWeight.w600, fontSize: 18.fh, height: 24.fh / 18.fh, letterSpacing: -0.18.fw, color: AppColors.black);
   }
 
-  // Текстовый стиль bodyMedium с макета
 
   // Текстовый стиль bodySmall с макета
   TextStyle get bodySmall {
@@ -30,8 +29,9 @@ extension TextStyleExtension on TextTheme {
 
   // Тестовый текстовый стиль
   TextStyle get testStyle {
-    return TextStyle(fontFamily: 'Playwrite', fontWeight: FontWeight.w400, fontSize: 24.fh, height: 32.fh / 14.fh, letterSpacing: 0.fw, color: AppColors.black);
+    return TextStyle(fontFamily: 'Playwrite', fontWeight: FontWeight.w400, fontSize: 240.fh, height: 32.fh / 14.fh, letterSpacing: 0.fw, color: AppColors.black);
   }
 }
 
+// Текстовый стиль bodyMedium с макета
 var bodyMedium = TextStyle(fontFamily: 'Manrope', fontWeight: FontWeight.w400, fontSize: 16.fh, height: 24.fh / 16.fh, letterSpacing: 0.fw, color: AppColors.black);
